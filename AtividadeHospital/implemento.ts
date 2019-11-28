@@ -6,7 +6,7 @@
 namespace hospital{
 
     let hospital = new Hospital();
-    hospital.setNome("Santa Marcelina Itaquera");
+    hospital.setNome("Hospital Santa Helena, Contagem-MG");
 
     let paciente = new Paciente();
     paciente.setNome("Gustavo");
@@ -14,7 +14,7 @@ namespace hospital{
     paciente.setcodPaciente(5);
 
     let paciente2 = new Paciente();
-    paciente2.setNome("Victoria");
+    paciente2.setNome("Daniel");
     paciente2.setCpf("109.876.543-21")
     paciente2.setcodPaciente(7);
 
@@ -45,19 +45,19 @@ namespace hospital{
     medico3.setcodFuncionario(3);
 
     let enfermeiro = new Enfermeiro();
-    enfermeiro.setNome("Juliana");
+    enfermeiro.setNome("Carlinhos");
     enfermeiro.setCpf("444.444.444-55");
     enfermeiro.setCoren(12345);
     enfermeiro.setcodFuncionario(1);
 
     let enfermeiro2 = new Enfermeiro();
-    enfermeiro2.setNome("Daniel");
+    enfermeiro2.setNome("Gabriel");
     enfermeiro2.setCpf("987.654.344-21");
     enfermeiro2.setCoren(54321);
     enfermeiro2.setcodFuncionario(2);
 
     let enfermeiro3 = new Enfermeiro();
-    enfermeiro3.setNome("Carlos");
+    enfermeiro3.setNome("Dona Lurdes");
     enfermeiro3.setCpf("654.467.676-21");
     enfermeiro3.setCoren(98765);
     enfermeiro3.setcodFuncionario(3);

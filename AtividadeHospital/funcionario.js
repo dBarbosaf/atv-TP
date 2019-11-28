@@ -26,6 +26,6 @@ var hospital;
             this._codFuncionario = codigo;
         };
         return Funcionario;
-    }(Pessoa));
+    }(hospital.Pessoa));
     hospital.Funcionario = Funcionario;
 })(hospital || (hospital = {}));

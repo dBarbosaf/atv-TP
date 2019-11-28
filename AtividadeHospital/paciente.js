@@ -26,6 +26,6 @@ var hospital;
             this._codPaciente = codigo;
         };
         return Paciente;
-    }(Pessoa));
+    }(hospital.Pessoa));
     hospital.Paciente = Paciente;
 })(hospital || (hospital = {}));
